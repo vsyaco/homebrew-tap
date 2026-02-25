@@ -3,7 +3,7 @@ cask "html2md" do
   name "html2md"
   desc "Convert HTML pages to Markdown from the command line"
   homepage "https://github.com/vsyaco/html2md"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "html2md" do
   on_macos do
     on_intel do
       url "https://github.com/vsyaco/html2md/releases/download/v#{version}/html2md_darwin_amd64.tar.gz"
-      sha256 "6fb5fb8e3ac252dea3ce2c934bd4451bbc5f917fcfb669fee43284fd4e7effc6"
+      sha256 "c01d9d948738f7f88075621de703684d42085106c268cf81cc4d0378706279f5"
     end
     on_arm do
       url "https://github.com/vsyaco/html2md/releases/download/v#{version}/html2md_darwin_arm64.tar.gz"
-      sha256 "00aaab36f62ca3e93ba01a151173898502393ba7e6322d86b9fa646c54aa1b3f"
+      sha256 "1f1dc488a6bf50388d62ddf44e2c1d6e2413528b469fe8bd39f653fbdf0826dd"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/vsyaco/html2md/releases/download/v#{version}/html2md_linux_amd64.tar.gz"
-      sha256 "a9f7917a874da00ebc485311851f0a15e60d3f0ae11574db3a96f59e8ec3d045"
+      sha256 "1a06f4db2458bcd1aa6b1c8d179763dc298a6023a86e7dae0be9ba8f5c3ae92f"
     end
     on_arm do
       url "https://github.com/vsyaco/html2md/releases/download/v#{version}/html2md_linux_arm64.tar.gz"
-      sha256 "0f6da1ef93328565d21e1a2672b9f1762629f839212742bfa0b4107c4d055f60"
+      sha256 "a324ff60d19f2f3c9970d96b725363652cc4db7111c4350747b4bb4a2ab94e0a"
     end
   end
 
